@@ -6,7 +6,7 @@
         {
             "label": "Sass Compile",
             "type": "shell",
-            "command": "node-sass styles/custom-theme-mundusmundi.scss styles/test.css",
+            "command": "sass mundus-mundi-5d717c0e4764e803dce16583/theme.scss test.css",
             "group": "build",
             "problemMatcher": [
                 "$node-sass"
