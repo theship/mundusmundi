@@ -1,5 +1,7 @@
 # mundusmundi
-Settings & styles for mundusmundi.com on NationBuilder. Files are sync'd in DropBox.
+Settings & styles for mundusmundi.com on NationBuilder. Files are sync'd in DropBox. And then pushed using the "Publish" button on:
+
+https://abevy.nationbuilder.com/admin/sites/2/themes/5d717c0e4764e803dce16583/preview?browser_id=default
 
 ## Theme:
 
@@ -14,11 +16,14 @@ https://www.dropbox.com/home/nb_sync/abevy/themes/mundus-mundi-5d717c0e4764e803d
 ## Fonts:
 
 Mundus Mundi Brand Bkmnia & Mundus Mundi Brand Din
+
 https://fonts.adobe.com/my_fonts#web_projects-section
 
 ## SEO & Analytics at Google
 
 Analytics are under julee@abevy.com account
+
 https://search.google.com/search-console/settings?resource_id=sc-domain%3Amundusmundi.com
+
 https://analytics.google.com/analytics/web/?authuser=0#/report/visitors-overview/a147547629w209612969p201706871/
 

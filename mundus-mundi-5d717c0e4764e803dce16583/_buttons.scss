@@ -19,10 +19,11 @@
     color: #fff;
   }
   &:hover {
-    background: $theme-color-9;
+    background: $theme-color-4;
+    color: $theme-color-1;
   }
   &:active {
-    background: $theme-color-10;
+    background: $theme-color-1;
   }
 }
 

@@ -10,7 +10,7 @@
 @import url("https://use.typekit.net/vtl1hlq.css");
 
 // headline font
-$headline-font: "din-2014", sans-serif;
+$headline-font: "din-2014", Helvetica, Arial, sans-serif;
 
 // main font
 $font: "bookmania", serif;
@@ -32,7 +32,7 @@ $theme-color-4: #d1c7c3;
 // form input area focus color
 $theme-color-5: rgba(244, 67, 54, 0.6);
 
-$theme-color-6: #fff;
+$theme-color-6: #f6f7fa;
 
 // supporter nav colors
 $theme-color-7: #d1c7c3;
@@ -51,14 +51,14 @@ $theme-color-13: #e6e6e6;
 $theme-color-14: #132012;
 
 // alternative shades
-$theme-color-15: #fff;
+$theme-color-15: #f6f7fa;
 $theme-color-16: #e9e9e9;
 $theme-color-17: #d1c7c3;
 $theme-color-18: #d1c7c3;
-$theme-color-19: #fff;
+$theme-color-19: #f6f7fa;
 
 // alternative accent
-$theme-color-20: #fff;
+$theme-color-20: #f6f7fa;
 
 // general success and error colors
 $red: #f44336;
@@ -74,9 +74,9 @@ $event-icon-retina: "event-icon_2x.png";
 $homepage-intro-font-weight: 400;
 $homepage-intro-link-color: #d1c7c3;
 $homepage-nav-link-color: $homepage-intro-link-color;
-$homepage-intro-accent-color: #d1c7c3;
+$homepage-intro-accent-color: #f44336;
 $footer-link-color: $theme-color-1;
-$footer-text-color: $theme-color-4;
+$footer-text-color: $theme-color-1;
 
 // supporter nav button variables
 $supporter-button-radius: 0;
@@ -88,7 +88,7 @@ $supporter-button-text-hover: $theme-color-1;
 $supporter-button-border-hover: 6px solid $theme-color-1;
 $supporter-button-background-active: transparent;
 $supporter-button-text-active: $theme-color-7;
-$supporter-button-border-active: 6px solid $theme-color-7;
+$supporter-button-border-active: 6px solid $theme-color-1;
 $signin-social-text-facebook: #d5ecf7;
 $signin-social-background-facebook: transparent;
 $signin-social-text-twitter: #b9fce7;
@@ -1138,7 +1138,7 @@ ul#page-stream {
   background-color: $header-color;
   background-image: $header-texture;
   background-position: top left;
-  background-size: 100%;
+  background-size: 100% 100%;
   color: $theme-color-2;
   position:relative;
   .width-container {
@@ -1146,7 +1146,7 @@ ul#page-stream {
     background-image: url("header-background-coffee.jpg");
   }
   .title {
-    font-size: 36px;
+    font-size: 10vh;
     line-height: 100%;
     text-align: center;
     padding: 10% 0;
@@ -2029,7 +2029,7 @@ h4.expander-head {
     display: inline-block;
   }
   button.flash-close {
-    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-family: "din-2014", Helvetica, Arial, sans-serif;
     font-size: 30px;
     font-weight: bold;
     line-height: 25px;
@@ -2046,18 +2046,18 @@ h4.expander-head {
     }
   }
   .success {
-    background-color: #dff0d8;
-    border-color: #d6e9c6;
-    color: #b9fce7;
+    background-color: #d1c7c3;
+    border-color: #132012;
+    color: #132012;
   }
   .error {
     background-color: #d1c7c3;
-    border-color: #d1c7c3;
+    border-color: #f44336;
     color: #f44336;
   }
   .info {
-    background-color: #d9edf7;
-    color: #d5ecf7;
+    background-color: #d1c7c3;
+    color: #132012;
   }
 }
 
@@ -2635,7 +2635,7 @@ a.rsvp-guests-count {
 .form-errors, .form-error {
   background-color: $red;
   @include border-radius(2px);
-  color: #fff;
+  color: #f6f7fa;
   font-family: $control-font;
   font-size: 13px;
   line-height: 1.25em;
